@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="hac4us06"
+          fetch="https://github.com/hac4us06" />
+
+  <remote name="hac4us06-gitlab"
+          fetch="https://gitlab.com/hac4us06" />
+
+ <!-- Trees -->
+ <project path="device/xiaomi/chime" name="device_xiaomi_chime13" remote="hac4us06" revision="derp" />
+ <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime" remote="hac4us06" revision="pyro-wip" />
+ <project path="vendor/xiaomi/chime" name="vendor-xiaomi-chime-13" remote="hac4us06-gitlab" revision="lineage-20" />
+
+</manifest>

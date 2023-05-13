@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+  <remote name="hac4us06-hub"
+          fetch="https://github.com/hac4us06" />
+
+  <remote name="liliumproject"
+          revision="ursinia"
+          fetch="https://www.opencode.net/liliumproject" />
+
+ <!-- Trees -->
+
+ <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="hac4us06-hub" revision="derp" />
+
+ <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="liliumproject"/>
+ <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus" remote="liliumproject"/>
+ <project path="vendor/xiaomi/lime" name="vendor_xiaomi_lime" remote="liliumproject"/>
+ <project path="hardware/samsung-ext/interfaces" name="Roynas-Android-Playground/hardware_samsung-extra_interfaces" remote="github" revision="lineage-22" />
+ <project path="kernel/xiaomi/chime" name="kernel-xiaomi-electro" remote="hac4us06-hub" revision="14" />
+
+ <project path="hardware/xiaomi" name="DerpFest-Devices/hardware_xiaomi" remote="github" revision="15" />
+</manifest>

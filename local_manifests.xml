@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+  <remote name="hac4us06-hub"
+
+          fetch="https://github.com/hac4us06" />
+
+  <remote name="hac4us06-lab"
+
+          fetch="https://gitlab.com/hac4us06" />
+
+ <!-- Trees -->
+
+ <project path="device/xiaomi/chime" name="device_xiaomi_chime13" remote="hac4us06-hub" revision="proton" />
+
+ <project path="vendor/xiaomi/chime" name="vendor-xiaomi-chime-13" remote="hac4us06-lab" revision="lineage-20" />
+
+ <project path="vendor/xiaomi/citrus" name="vendor-xiaomi-citrus-13" remote="hac4us06-lab" revision="lineage-20" />
+
+ <project path="vendor/xiaomi/lime" name="vendor-xiaomi-lime-13" remote="hac4us06-lab" revision="lineage-20" />
+
+ <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime" remote="hac4us06-hub" revision="pyro-wip" />
+  
+ <project path="hardware/xiaomi" name="hardware_xiaomi13" remote="hac4us06-hub" revision="thirteen" />
+
+</manifest>
+
